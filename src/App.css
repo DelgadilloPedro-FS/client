@@ -1,0 +1,52 @@
+.app {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.user-form {
+  /* Reset default padding and margin */
+  padding: 1em;
+  margin: 0 auto;
+  width: 300px; /* Adjust for your desired width */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.user-form input,
+.user-form button {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.user-form input {
+  /* Remove default webkit appearance for input fields */
+  -webkit-appearance: none;
+}
+
+.user-form input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.user-form button {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.user-form button:hover {
+  background-color: #1b1b1b;
+}
+
+.user-form br {
+  /* Hide unwanted line breaks */
+  display: none;
+}
